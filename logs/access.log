@@ -1,0 +1,45 @@
+[2016-10-18 17:00:45.232] [INFO] app - starting crawl  https://www.bfsu.edu.cn/
+[2016-10-18 17:03:26.441] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND ghc.bfsu.edu.cn ghc.bfsu.edu.cn:80
+[2016-10-18 17:03:46.392] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND xpyx.bfsu.edu.cn xpyx.bfsu.edu.cn:80
+[2016-10-18 17:03:51.929] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND ru.bfsu.edu.cn ru.bfsu.edu.cn:80
+[2016-10-18 17:04:40.157] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND gh.bfsu.edu.cn gh.bfsu.edu.cn:80
+[2016-10-18 17:05:43.720] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND xxy.bfsu.edu.cn xxy.bfsu.edu.cn:80
+[2016-10-18 17:06:22.452] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 17:07:26.662] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND webmail.bfsu.edu.cn webmail.bfsu.edu.cn:443
+[2016-10-18 17:08:37.661] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND xpyx.bfsu.edu.cn xpyx.bfsu.edu.cn:80
+[2016-10-18 17:28:14.366] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 17:29:14.772] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 17:30:33.652] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 17:32:10.703] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 17:32:10.779] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 18:17:58.730] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 18:20:46.726] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 18:25:32.129] [ERROR] app - problem with request:  connect ETIMEDOUT 123.124.17.27:80
+[2016-10-18 18:27:04.674] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND asc.bfsu.edu.cn asc.bfsu.edu.cn:80
+[2016-10-18 18:27:09.765] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND csc.bfsu.edu.cn csc.bfsu.edu.cn:80
+[2016-10-18 18:27:09.945] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND brsc.bfsu.edu.cn brsc.bfsu.edu.cn:80
+[2016-10-18 18:27:10.160] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND isc.bfsu.edu.cn isc.bfsu.edu.cn:80
+[2016-10-18 18:31:31.169] [ERROR] app - problem with request:  connect ETIMEDOUT 203.98.7.65:80
+[2016-10-18 18:33:38.657] [ERROR] app - problem with request:  connect ETIMEDOUT 78.16.49.15:443
+[2016-10-18 18:35:46.912] [ERROR] app - problem with request:  connect ETIMEDOUT 192.168.253.184:8080
+[2016-10-18 19:23:24.204] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 19:24:25.049] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 19:24:29.029] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 19:25:10.247] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 19:25:27.486] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 19:26:05.083] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 19:26:44.910] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 19:27:47.007] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 19:28:42.176] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 19:29:09.460] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND chinese.bfsu.edu.cn chinese.bfsu.edu.cn:80
+[2016-10-18 19:42:45.193] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND gh.bfsu.edu.cn gh.bfsu.edu.cn:80
+[2016-10-18 21:12:32.515] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND dti.bfsu.edu.cn dti.bfsu.edu.cn:80
+[2016-10-18 21:13:25.589] [ERROR] app - problem with request:  getaddrinfo ENOTFOUND webmail.bfsu.edu.cn webmail.bfsu.edu.cn:80
+[2016-10-18 22:24:04.121] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 22:24:04.641] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 22:24:04.801] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 22:54:19.623] [ERROR] app - problem with request:  Parse Error
+[2016-10-18 23:04:44.197] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 23:05:44.482] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 23:06:44.934] [ERROR] app - problem with request:  read ECONNRESET
+[2016-10-18 23:06:56.746] [ERROR] app - problem with request:  Parse Error

@@ -20,7 +20,7 @@ function crawl (data, context) {
 	var result;
 
 	//regSite is a filter, it can filter outside href.
-	var regSite =new RegExp(gData.config.serverReg, "i");
+	var regSite = new RegExp(gData.config.serverReg, "i");
 
 	while ((result = regURL.exec(data)) != null){
 		var hostcontext = result[1].trim();
@@ -40,7 +40,10 @@ function crawl (data, context) {
 		//logger.info("Matched " + result[1] + " ,and url is " + hostcontext);
 	}
 
-	logger.info("counter is : "+ gData.counter + ", and urlList' length is "+ gData.urlList.length);
+	var regContent = new RegExp("肖子璇", "g");
+	if (regContent.test(data)) logger.info("找到了目标网页", context);
+
+	//logger.info("counter is : "+ gData.counter + ", and urlList' length is "+ gData.urlList.length);
 
 	if (gData.counter == gData.urlList.length) return ;
 	else {

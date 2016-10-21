@@ -24,9 +24,9 @@ function httpRequest(href) {
 			data+=d;
 		});
 		res.on('end', () => {
-			logger.info('starting processing --------', href);
+			//logger.info('starting processing --------', href);
 			crawler.crawl(data, href);
-			logger.info(href, ' prcessing have already succeeded');
+			//logger.info(href, ' processing have already succeeded');
 		})
 	});
 
@@ -45,9 +45,9 @@ function httpsRequest(href) {
 			data+=d;
 		});
 		res.on('end', () => {
-			logger.info('starting processing ', href);
+			//logger.info('starting processing ', href);
 			crawler.crawl(data, href);
-			logger.info(href, ' processing have already succeeded');
+			//logger.info(href, ' processing have already succeeded');
 		})
 	})
 	req.on('error', e => {
@@ -63,7 +63,7 @@ module.exports.httpsRequest = httpsRequest;
 function start(urlObject) {
 	if (urlObject.protocol == 'http:') {
 		//httpRequest(urlObject.href);
-		async.retry({times:13,interval: function(retryCount) {
+		async.retry({times:15,interval: function(retryCount) {
 			return 50*Math.pow(2, retryCount);
 		}}, function(){
 			httpRequest(urlObject.href);
@@ -75,7 +75,7 @@ function start(urlObject) {
 		});
 	} else if (urlObject.protocol == 'https:') {
 		//httpsRequest(urlObject.href);
-		async.retry({times:13,interval:function(retryCount) {
+		async.retry({times:15,interval:function(retryCount) {
 			return 50*Math.pow(2, retryCount);
 		}}, function(){
 			httpsRequest(urlObject.href);
